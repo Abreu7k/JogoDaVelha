@@ -1,0 +1,44 @@
+.mensagem {
+  display: none;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333333;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px;
+    font-size: 60px;
+    margin:-1px -1px -1px -1px;
+}
+
+#\30,#\31,#\32 {
+	border-top: 0;
+}
+
+#\30,#\33,#\36 {
+	border-left: 0;
+}
+
+
+#\32,#\35,#\38 {
+	border-right: 0;
+}
+
+
+#\36,#\37,#\38 {
+	border-bottom: 0;
+}
